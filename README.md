@@ -1,7 +1,8 @@
-# Election_Analysis
+# Election Analysis
 
 ## Overview of Election Audit
- The Elecion Audit is to analyze the election results by candidate and by country. With the help of the analysis, we can find out the country with largest turnout and the winner of the election.
+ The Election Audit is to analyze the election results by candidate and by county. With the help of the analysis, we can find out the county with largest turnout and the winner of the election.
+
 
 ## Election-Audit Results
 - Total Votes cast in this congressional election is 369,711
@@ -20,18 +21,18 @@
 
   ![image](https://user-images.githubusercontent.com/92648619/142820984-16002528-e5b6-4f51-bb57-5bab6d5d1c46.png)
 
-- The winner of the election is Diana DeGette with 72,892 votes or 73.8% percentage of total votes..
+- The winner of the election is Diana DeGette with 72,892 votes or 73.8% percentage of total votes.
 
   ![image](https://user-images.githubusercontent.com/92648619/142821201-11d26bc1-71af-46b6-8d3f-8203bb00bff0.png)
 
 ## Election-Audit Summary: 
 ### The application of the scripts
 The scripts to run the election analysis can be applied to other elections by some modifications.
-- The index used in the script to retrive the candidate or country information might need to be updated based on the structure of the file of election data results. The Index is 2 here for candidate name as the name info are in the third column of the data file. 
+- The index used in the script to retrieve the candidate or country information might need to be updated based on the structure of the file of election data results. The Index is 2 here for candidate name as the name info are in the third column of the data file. 
 
   ![image](https://user-images.githubusercontent.com/92648619/142822000-b57ffb52-5175-4bfc-8a06-4169e00a4e03.png)
 
-- The path of the original election data need to be updated in order for the script to connect to the correct file
+- The path of the original election data needs to be updated in order for the script to connect to the correct file.
   ![image](https://user-images.githubusercontent.com/92648619/142822591-6df1288b-c38d-4bd0-8639-f8e1594e0f22.png)
 
 - The next() script might be deleted if the data file does not have column headers.
